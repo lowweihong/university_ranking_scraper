@@ -3,12 +3,9 @@ import setuptools
 with open("README.md", "r") as f:
     readme = f.read()
 
-# with open("requirements.txt", "r") as f:
-#     reqs = [lib.strip() for lib in f if lib]
-
 setuptools.setup(
     name="university_ranking_scraper",
-    version="0.0.2",
+    version="0.0.3",
     description="A web crawler to crawl Best Global University Ranking on usnews, Times Higher Education, and QS websites",
     long_description=readme,
     long_description_content_type="text/markdown",
